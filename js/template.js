@@ -1,0 +1,2 @@
+
+exports.alarmModule = Alarm;
