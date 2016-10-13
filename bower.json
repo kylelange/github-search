@@ -3,7 +3,7 @@
   "description": "",
   "main": "gulpfile.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/kylelange/js-template2",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,5 +15,8 @@
     "jquery": "^3.1.1",
     "bootstrap": "^3.3.7",
     "moment": "^2.15.1"
-  }
+  },
+  "authors": [
+    "Kyle Lange <baronsintrees@gmail.com>"
+  ]
 }

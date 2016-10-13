@@ -1,2 +1,4 @@
+function Weather() {
+}
 
-exports.alarmModule = Alarm;
+exports.weatherModule = Weather;

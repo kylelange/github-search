@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Kyle Lange",
   "license": "ISC",
   "devDependencies": {
     "bower-files": "^3.14.1",
@@ -29,5 +29,13 @@
     "jshint": "^2.9.3",
     "vinyl-source-stream": "^1.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylelange/js-template2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kylelange/js-template2/issues"
+  },
+  "homepage": "https://github.com/kylelange/js-template2#readme",
   "description": ""
 }
