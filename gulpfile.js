@@ -9,6 +9,19 @@ var utilities = require('gulp-util');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var buildProduction = utilities.env.production;
+var jshint = require('gulp-jshint');
+
+var lib = require('bower-files')({
+  "overrides":{
+    "bootstrap" : {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+});
 
 gulp.task('concatInterface', function() {
   return gulp.src(['./js/*-interface.js'])
@@ -43,24 +56,10 @@ gulp.task("build", ['clean'], function() {
   gulp.start('cssBuild');
 });
 
-var jshint = require('gulp-jshint');
-
 gulp.task('jshint', function() {
  return gulp.src(['js/*.js'])
   .pipe(jshint())
   .pipe(jshint.reporter('default'));
-});
-
-var lib = require('bower-files')({
-  "overrides":{
-    "bootstrap" : {
-      "main": [
-        "less/bootstrap.less",
-        "dist/css/bootstrap.css",
-        "dist/js/bootstrap.js"
-      ]
-    }
-  }
 });
 
 gulp.task('bowerJS', function () {
