@@ -7,8 +7,8 @@ var displayRepo = function(repoName, desc){
 
 //submit function here
 $(document).ready(function() {
-  $("form-name").submit(function(){
-    //debugger;
+  $(".form-name").submit(function(){
+    debugger;
     event.preventDefault();
     $("#output-results").empty();
     var newSearch = new Search();
