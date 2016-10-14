@@ -2,7 +2,7 @@ var Search = require('./../js/search.js').searchModule;
 
 //Display function/s here
 var displayRepo = function(repoName, desc){
-  $("#display-repo").append("<li>"repoName + " is an app about " + desc + ".</li>");
+  $("#display-repo").append("<li>" + repoName + " is an app about " + desc + ".</li>");
 };
 
 //submit function here
