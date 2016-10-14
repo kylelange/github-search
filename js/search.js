@@ -4,12 +4,13 @@ function Search() {
 }
 
 Search.prototype.getRepoDesc = function(name, displayRepo) {
-  $.get('urlhere' + name + '&more url here=' + apiKey).then(function(response){
-    displayRepo(name, REAL-repoName, REAL-desc);
+  $.get('https://api.github.com/users/' + name + '?access_token=' + apiKey).then(function(response){
+    console.log(response);
+    //displayRepo(name, REAL-repoName, REAL-desc);
   })
 
   // .fail(function(error){
-  //   $("#results-error").text(errorMessageHERE);
+  //   $("#results-error").text(error.responseJSON.message);
   // });
 }
 
