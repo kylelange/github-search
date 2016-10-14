@@ -1,9 +1,9 @@
 {
-  "name": "weathersolo",
-  "description": "a solo practice of api",
+  "name": "github-search",
+  "description": "Friday JavaScript Week 1",
   "main": "gulpfile.js",
   "license": "ISC",
-  "homepage": "https://github.com/kylelange/weatherAPI-solo.git",
+  "homepage": "https://github.com/kylelange/github-search.git",
   "ignore": [
     "**/.*",
     "node_modules",
