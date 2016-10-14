@@ -15,11 +15,13 @@
         <div class="col-md-2">
         </div>
           <div class="col-md-8">
-            <form class="form">
-              <label for="city">Write the username of a Github user and see a list of all of their public repositories:</label>
-              <input placeholder="username" name="name" >
-              <button class="" type="submit" name="button">Find User</button>
+            <form class="form-name">
+              <label for="name">Write the username of a Github user and see a list of all of their public repositories:</label>
+              <input id="name-input" class="form-control" placeholder="username" name="name">
+              <button class="btn" type="submit" name="button">Find User</button>
             </form>
+            <h2 id="results-header">Here is what we found:</h2>
+            <ul id="display-repo"></ul>
           </div>
         <div class="col-md-2">
         </div>
