@@ -31,11 +31,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kylelange/weatherAPI-solo.git"
+    "url": "git+https://github.com/kylelange/github-search.git"
   },
   "bugs": {
-    "url": "https://github.com/kylelange/weatherAPI-solo/issues"
+    "url": "https://github.com/kylelange/github-search/issues"
   },
-  "homepage": "https://github.com/kylelange/weatherAPI-solo#readme",
+  "homepage": "https://github.com/kylelange/github-search#readme",
   "description": "a solo practice of api"
 }
