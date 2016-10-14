@@ -1,5 +1,5 @@
-var Weather = require('./../js/weather.js').weatherModule;
+var Search = require('./../js/search.js').searchModule;
 
 $(document).ready(function() {
-  var currentWeatherObject = new Weather();
-});  
+  var newSearch = new Search();
+});
