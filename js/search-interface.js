@@ -1,6 +1,6 @@
 var Search = require('./../js/search.js').searchModule;
 
-//Display functions here
+//Display function/s here
 var displayRepo = function(repoName, desc){
   $("#display-repo").text(repoName + " is an app about " + desc + ".");
 };
