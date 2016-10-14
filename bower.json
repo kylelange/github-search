@@ -3,7 +3,7 @@
   "description": "a solo practice of api",
   "main": "gulpfile.js",
   "license": "ISC",
-  "homepage": "https://github.com/kylelange/js-template2",
+  "homepage": "https://github.com/kylelange/weatherAPI-solo.git",
   "ignore": [
     "**/.*",
     "node_modules",
