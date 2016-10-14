@@ -1,4 +1,19 @@
 //universal
+body {
+  background-image: linear-gradient(146deg, #DFF1FE 0%, #FFFFFF 41%);
+  background-size: cover;
+  height: 100%;
+  margin: 100px;
+}
+
+h1 {
+color: #204863;
+}
+
+h2 {
+  color: #5784A2;
+}
+
 label {
   margin-top: 20px;
 }
@@ -10,6 +25,8 @@ input {
 //class
 .btn{
   margin-top: 20px;
+  background-image: linear-gradient(-180deg, #83DB7B 0%, #529F4E 100%);
+  border: 1px solid #55A851;
 }
 
 //id

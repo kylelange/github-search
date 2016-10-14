@@ -15,7 +15,7 @@ var displayRepo = function(repoName, desc){
 $(document).ready(function() {
   $(".form-name").submit(function(){
     event.preventDefault();
-    $("#output-results").empty();
+    $("#display-repo").empty();
     var newSearch = new Search();
     var userName = $("#name-input").val();
     newSearch.getRepoDesc(userName, displayRepo, displayUserName);
