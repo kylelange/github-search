@@ -13,7 +13,7 @@ $(document).ready(function() {
     $("#output-results").empty();
     var newSearch = new Search();
     var userName = $("#name-input").val();
-    newSearch.getRepoDesc(name, displayRepo);
+    newSearch.getRepoDesc(userName, displayRepo);
     $("#results-header").show();
     console.log(userName);
     console.log(newSearch);
