@@ -10,11 +10,9 @@ Search.prototype.getRepoDesc = function(userName, displayRepo, displayUserName) 
     for(var i = 0; i < response.length; i++){
       displayRepo(response[i].name, response[i].description);
     }
+  }).fail(function(error){
+    $("#results-error").text("error.responseJSON.message" + "! Sorry, that person does not exist on Github.");
   });
-
-  // .fail(function(error){
-  //   $("#results-error").text("error.responseJSON.message" + "! Sorry, that person does not exist on Github.");
-  // });
 };
 
 exports.searchModule = Search;
