@@ -40,6 +40,8 @@ _3. You will need an API key from the [GitHub API](https://github.com/blog/1509-
 
 _exports.apiKey = "YOUR_APIKEY_HERE";_
 
+_4.  you will need to create an .env file at the top level of this program. To hide your API key, place your .env file in your .gitignore file (which should also be in the top level).
+
 ## Known Bugs
 
 _{There are no known bugs at this time.}_
