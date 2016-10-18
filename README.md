@@ -24,9 +24,12 @@ _Install GitHub Search locally by cloning this repository:
 
 _1. After cloning this repository, initialize and install the Node and Bower packages by running these commands in your terminal:_
 
-  _$npm init_
+  _ $npm init_
+
   _$npm install_
+
   _$bower init_
+
   _$bower install_
 
 _Look at the gulpfile.js in this repository to see the packages/dependencies installed through nmp/Bower and code that runs/pipes each package.  The most important package is gulp, which gathers all the others and later allows you to build and serve the site locally.  See more below._
