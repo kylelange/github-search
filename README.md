@@ -24,11 +24,7 @@ _Install GitHub Search locally by cloning this repository:
 
 _1. After cloning this repository, initialize and install the Node and Bower packages by running these commands in your terminal:_
 
-  _ $npm init_
-
   _$npm install_
-
-  _$bower init_
 
   _$bower install_
 
@@ -36,7 +32,8 @@ _Look at the gulpfile.js in this repository to see the packages/dependencies ins
 
 _2. when installation is complete, enter the commands below in your terminal to use gulp to run the program locally in your server:_
 
-  _$gulp build_  
+  _$gulp build_
+   
   _$gulp serve_
 
 _3. You will need an API key from the [GitHub API](https://github.com/blog/1509-personal-api-tokens) to use this project. Create an .env folder in the TOP LEVEL of the project, and place your API access token in following code below:_

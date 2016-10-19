@@ -8,10 +8,18 @@ Search.prototype.getRepoDesc = function(userName, displayRepo, displayUserName) 
     console.log(response);
     displayUserName(userName);
     for(var i = 0; i < response.length; i++){
-      displayRepo(response[i].name, response[i].description);
+      if (response[i].description === null) {
+        displayRepo(response[i].name + " : no description given for this one.")
+      } else {
+        displayRepo(response[i].name, response[i].description);
+      }
     }
   }).fail(function(error){
-    $("#results-error").text("error.responseJSON.message" + "! Sorry, that person does not exist on Github.");
+    $("#results-error").empty();
+    console.log(error.responseJSON.message);
+    if (error.responseJSON.message === "Not Found") {
+      $("#results-error").text("Sorry, that user name does not exist on Github!");
+    }
   });
 };
 
