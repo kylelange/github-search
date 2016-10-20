@@ -8,7 +8,7 @@ var displayUserName = function(userName){
 
 var displayRepo = function(repoName, desc){
   if (desc === null){
-    $("#display-repo").append(repoName + " : no description given for this one.");
+    $("#display-repo").append("<li>" + repoName + " : no description given for this one.</li>");
   } else {
     $("#display-repo").append("<li>" + repoName + ": is an app about " + desc + ".</li>");
     //put actual links to repos by manipulating the dom w/ <a> inside a <div>.  desc will need to be <p> instead
@@ -22,6 +22,7 @@ $(document).ready(function() {
     event.preventDefault();
     $("#userName-display").empty();
     $("#display-repo").empty();
+    $("#results-error").empty();
     var newSearch = new Search();
     var userName = $("#name-input").val();
     newSearch.getRepoDesc(userName, displayRepo, displayUserName);
