@@ -2,6 +2,7 @@ var Search = require('./../js/search.js').searchModule;
 
 //Display Callback function/s here
 var displayUserName = function(userName){
+  $("userName-display").empty();
   $("#userName-display").text(userName + "'s repos:");
 };
 
@@ -15,6 +16,7 @@ var displayRepo = function(repoName, desc){
 $(document).ready(function() {
   $(".form-name").submit(function(){
     event.preventDefault();
+    $("userName-display").empty();
     $("#display-repo").empty();
     var newSearch = new Search();
     var userName = $("#name-input").val();
