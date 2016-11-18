@@ -4,6 +4,8 @@
 
 #### By _**Kyle Lange**_
 
+![screenshot](Screen Shot.png)
+
 ## Description
 
 _This site should show my understanding of:_
@@ -33,18 +35,23 @@ _Look at the gulpfile.js in this repository to see the packages/dependencies ins
 _2. when installation is complete, enter the commands below in your terminal to use gulp to run the program locally in your server:_
 
   _$gulp build_
-   
+
   _$gulp serve_
 
 _3. You will need an API key from the [GitHub API](https://github.com/blog/1509-personal-api-tokens) to use this project. Create an .env folder in the TOP LEVEL of the project, and place your API access token in following code below:_
 
 _exports.apiKey = "YOUR_APIKEY_HERE";_
 
-_4.  you will need to create an .env file at the top level of this program. To hide your API key, place your .env file in your .gitignore file (which should also be in the top level).
+_4.  you will need to create an .env file at the top level of this program. To hide your API key, place your .env file in your .gitignore file (which should also be in the top level)._
 
 ## Known Bugs
 
 _{There are no known bugs at this time.}_
+
+## Support and contact details
+
+For questions, concerns, or suggestions please email baronsintrees@gmail.com
+
 
 ## Technologies Used
 
